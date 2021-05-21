@@ -45,7 +45,7 @@ if __name__ == '__main__':
     DEVICE = device
     batch_size = 32
     learning_rate = 0.01
-    epochs = 1
+    epochs = 100
     
     ### Generate Data Loader
     train_loader, train_target_tensor, val_loader, val_target_tensor, test_loader, test_target_tensor, _mean, _std = load_graphdata_channel_my(

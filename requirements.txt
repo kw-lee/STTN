@@ -1,0 +1,4 @@
+numpy
+pandas==1.1.5
+pytorch-lightning==1.4.0
+torch==1.8.0

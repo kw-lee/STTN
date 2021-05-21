@@ -28,8 +28,6 @@ Data preprocessing. Adapted from [ASTGCN]: https://github.com/guoshnBJTU/ASTGCN-
 - This code will return and save a processed .npz file in the same path.
 - Other parameters you may refer to the comments in python file.
 
-
-
 ### train_batch.py
 
 Training process. Adapted from [ASTGCN]: https://github.com/guoshnBJTU/ASTGCN-r-pytorch. 
@@ -44,7 +42,11 @@ Training process. Adapted from [ASTGCN]: https://github.com/guoshnBJTU/ASTGCN-r-
 
 - You should write down the best epochs for further test.
 
-  
+### train_lightning.py 
+
+- trainining process using pytorch-lightning
+
+https://colab.research.google.com/drive/1vdBGitmpXLYX9AD2Kkjr8JBK8wauz5Fi?usp=sharing
 
 ### predict_batch.py
 
